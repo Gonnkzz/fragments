@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/miAbout"
+        android:title="@string/menu_about"
+        android:orderInCategory="100">
+    </item>
+    <item
+        android:id="@+id/miSetting"
+        android:title="@string/menu_setting"
+        android:orderInCategory="101">
+    </item>
+</menu>
