@@ -82,7 +82,8 @@ public class ContactoDetalle extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.miAbout:
-                Toast.makeText(this, "About", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(this, ViewPageActivity.class);
+                startActivity(i);
                 break;
             case R.id.miSetting:
                 Toast.makeText(this, "Setting", Toast.LENGTH_SHORT).show();

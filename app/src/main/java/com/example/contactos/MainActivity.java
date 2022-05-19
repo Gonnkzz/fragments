@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         listaContactos.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, nombres));
 
         listaContactos.setOnItemClickListener((adapterView, view, i, l)->{
-            Intent intent = new Intent(this, ContactoDetalle.class);
-            intent.putExtra("KEY_EXTRA_CONTACTO", contactos.get(i));
+            Intent intent = new Intent(this, Almacenamiento.class);
+           // intent.putExtra("KEY_EXTRA_CONTACTO", contactos.get(i));
             startActivity(intent);
             finish();
         });

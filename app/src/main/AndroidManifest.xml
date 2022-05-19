@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Contactos">
         <activity
+            android:name=".Almacenamiento"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPageActivity"
+            android:exported="false" />
+        <activity
             android:name=".ContactoDetalle"
             android:exported="false" />
         <activity
